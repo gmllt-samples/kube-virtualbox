@@ -1,0 +1,13 @@
+vms:
+  control-plane:
+    cpus: 2
+    memory: 4096
+    disk: 102400
+  worker:
+    cpus: 1
+    memory: 2048
+    disk: 102400
+
+network:
+  bridge_interface: "enp7s0"
+  private_network_subnet: "192.168.56.0/24"
